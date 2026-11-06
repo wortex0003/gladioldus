@@ -1,0 +1,6 @@
+{
+  "name": "SiteForge AI - Генератор Готових Сайтів",
+  "description": "Миттєва генерація готових сайтів під ключ за назвою, описом та контактами з можливістю завантаження єдиного index.html для будь-якого хостингу.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
