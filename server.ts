@@ -464,7 +464,7 @@ Guidelines:
         });
 
         const timeoutPromise = new Promise<never>((_, reject) =>
-          setTimeout(() => reject(new Error('AI generation timed out')), 9000)
+          setTimeout(() => reject(new Error('AI generation timed out')), 30000)
         );
 
         const response = await Promise.race([generatePromise, timeoutPromise]);
